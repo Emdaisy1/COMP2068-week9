@@ -1,15 +1,4 @@
-//Person class ---------------
-var Person = (function () {
-    //Constructor -----------------
-    function Person(name) {
-        this._name = name;
-    }
-    //Public methods -------------
-    Person.prototype.sayName = function () {
-        console.log("Your name is " + this._name);
-    };
-    return Person;
-})();
-var Emma = new Person(Emma);
+/// <reference path = "objects/person.ts" />
+var Emma = new objects.Person("Emma", 19, 140);
 Emma.sayName();
 //# sourceMappingURL=app.js.map

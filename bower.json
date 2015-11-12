@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "homepage": "https://github.com/Emdaisy1/COMP2068-week9",
+  "authors": [
+    "Emdaisy1 <hilborn_emmav@live.ca>"
+  ],
+  "description": "week9",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
