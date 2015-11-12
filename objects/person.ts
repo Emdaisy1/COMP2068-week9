@@ -1,6 +1,6 @@
 module objects {
 	//Person class ---------------
-class Person {
+export class Person {
 	//Private instance variables -----------
 	private _name:string;
 	private _age:number;

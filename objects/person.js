@@ -14,5 +14,6 @@ var objects;
         };
         return Person;
     })();
+    objects.Person = Person;
 })(objects || (objects = {}));
 //# sourceMappingURL=person.js.map
